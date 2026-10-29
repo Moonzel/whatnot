@@ -50,3 +50,4 @@ jobs:
       with:
         name: app-release-unsigned
         path: whatnot-android/app/build/outputs/apk/release/app-release-unsigned.apk
+        
