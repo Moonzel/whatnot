@@ -2,11 +2,11 @@ name: Build APK
 
 on:
   push:
-    branches: [ main, master ]
+    branches: [ '**' ] # This tells it to run on ANY branch you push to
     paths:
       - 'whatnot-android/**'
   pull_request:
-    branches: [ main, master ]
+    branches: [ '**' ]
     paths:
       - 'whatnot-android/**'
   workflow_dispatch:  # Allow manual trigger
